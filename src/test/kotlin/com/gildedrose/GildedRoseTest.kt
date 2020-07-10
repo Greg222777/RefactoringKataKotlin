@@ -47,9 +47,8 @@ class GildedRoseTest {
                             .find { item -> item.name == agedBrie.name }?.quality)
 
                     // check that Conjured item quality decreased by 2
-                    //TODO uncomment this test once the conjured item has been fixed
-//                    assertEquals(8, app.items
-//                            .find { item -> item.name == conjured.name }?.quality)
+                    assertEquals(8, app.items
+                            .find { item -> item.name == conjured.name }?.quality)
 
                     // check that backstage pass item quality increased by 1 when
                     // sellIn (15) is still > 10 - base quality is 30
