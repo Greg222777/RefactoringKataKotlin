@@ -1,4 +1,6 @@
-package com.gildedrose
+package com.gildedrose.item.logic
+
+import com.gildedrose.item.model.Item
 
 /**
  * Child class of BaseItemAdapter, functions which have a different behaviour from REGULAR item

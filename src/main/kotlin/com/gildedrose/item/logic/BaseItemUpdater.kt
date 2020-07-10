@@ -1,4 +1,6 @@
-package com.gildedrose
+package com.gildedrose.item.logic
+
+import com.gildedrose.item.model.Item
 
 /**
  * This is the base item updater for REGULAR items
