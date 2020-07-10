@@ -16,7 +16,7 @@ open class BaseItemUpdater(val item: Item) {
 
     /**
      * quality operations done BEFORE sellIn is updated
-     * @return ItemAdapter  to be able to call updateSellIn()
+     * @return ItemUpdater  to be able to call updateSellIn()
     when it is instantiated without having to assign the object
      */
     open fun doPreSellInUpdateOperations(): BaseItemUpdater {
@@ -28,7 +28,7 @@ open class BaseItemUpdater(val item: Item) {
     }
 
     /**
-     * @return ItemAdapter  to be able to call doPostSellInUpdateOperations()
+     * @return ItemUpdater  to be able to call doPostSellInUpdateOperations()
     when it is instantiated without having to assign the object
      */
     open fun updateSellIn(): BaseItemUpdater {

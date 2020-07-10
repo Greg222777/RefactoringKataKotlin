@@ -8,7 +8,7 @@ import com.gildedrose.item.model.Item
 class ItemUpdateManager {
 
     /**
-     * Instantiates an ItemAdapter according the the item name
+     * Instantiates an ItemUpdater according the the item name
      * calls pre-sellIn updates, sellIn update then post-sellIn update on the ItemUpdater
      * @param item : the item to update
      */
