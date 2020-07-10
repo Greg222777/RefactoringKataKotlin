@@ -30,7 +30,7 @@ class GildedRoseTest {
         for (i in 1..23) {
 
             // call update quantity once each loop
-            // index i is the number of times the functin has been called
+            // index i is the number of times the function has been called
             app.updateQuality()
 
             when (i) {
